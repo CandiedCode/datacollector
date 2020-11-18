@@ -15,7 +15,7 @@
 -->
 
 # MySql BinLog origin
-Origin acting as MySql replication slave. It consumes events directly from MySql binary log using library [mysql-binlog-connector-java](https://github.com/shyiko/mysql-binlog-connector-java).
+Origin acting as MySql replication slave. It consumes events directly from MySql binary log using library [mysql-binlog-connector](https://github.com/shyiko/mysql-binlog-connector-java).
 Events consumed from log are further enriched with columns names and converted to `Record` with appropriate data types.
 
 Origin works well with MySql servers with and without GTID enabled.
